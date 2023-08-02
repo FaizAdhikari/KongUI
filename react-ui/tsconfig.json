@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      // "allowImportingTsExtensions": true,
+      "target": "es5",
+      "module": "commonjs",
+      "jsx": "react",
+      "esModuleInterop": true,
+      "allowJs": true, // This allows JavaScript files to be included as well
+      "outDir": "./build/static", // Matches the output path in the webpack config
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true
+    },
+    "include": [
+      "./**/*.ts", // Include TypeScript files
+      "./**/*.tsx", // Include TypeScript JSX files
+      "./**/*.js",  // Include JavaScript files
+      "./**/*.jsx"  // Include JavaScript JSX files
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
+  
